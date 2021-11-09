@@ -1,0 +1,146 @@
+.container{
+    border-radius:10px;
+    height:1270px;
+    max-width:325px;
+    margin:auto;
+
+    @include breakpoint-up(large){
+        height:500px;
+        max-width:920px;
+        margin:auto;
+        
+    }
+    
+}
+
+
+nav {
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    @include breakpoint-up(large){
+        padding-top: 13em;
+        padding-bottom: 13em;
+       
+    }
+
+}
+
+.content{
+
+    @include breakpoint-up(large){
+        display:flex;
+    }
+    
+}
+
+.content-items{
+    padding-right:2.875rem;
+    padding-left:2.875rem;
+    padding-top:2.625rem;
+    padding-bottom:2.625rem;
+
+   
+}
+
+.one{
+
+    background: $Brightorange;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+    
+    @include breakpoint-up(large){
+        border-top-right-radius:0;
+        border-bottom-left-radius:10px;
+      
+    }
+
+}
+
+.two{
+    
+    background: $Darkcyan;
+    
+    
+
+}
+
+.three{
+   
+    background:$Verydarkcyan ;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+
+    @include breakpoint-up(large){
+        border-bottom-left-radius:0;
+        border-top-right-radius:10px;
+      
+    }
+
+}
+
+p{
+    
+    line-height:1.6;
+    color:$Transparentwhite;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    font-size:37px;
+    text-transform: uppercase;
+    color:$Verylightgray;
+    
+}
+
+
+.button {
+
+    padding:0.9375rem 1.875rem;
+    background:$Verylightgray;
+    border-radius:30px;
+    display:inline-block;
+    text-align:center;
+    text-decoration: none;
+
+    @include breakpoint-up(large){
+      margin-top:3.75rem;
+      
+    }
+}
+
+
+.button:active{
+
+    background:none;
+    border: 3.5px solid $Verylightgray;
+}
+
+.one > .button{
+    color:$Brightorange;
+}
+
+.one > .button:active{
+    color:$Verylightgray;
+}
+
+.two > .button{
+    color:$Darkcyan;
+}
+
+.two > .button:active{
+    color:$Verylightgray;
+}
+
+
+.three > .button{
+    color:$Verydarkcyan ;
+}
+
+.three > .button:active{
+    color:$Verylightgray;
+}
+
+
+
