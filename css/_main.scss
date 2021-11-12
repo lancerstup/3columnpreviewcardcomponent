@@ -28,7 +28,7 @@
 
     @include breakpoint-up(large){
         height:500px;
-        min-width:920px;
+        max-width:920px;
         display:flex;
        
     }
