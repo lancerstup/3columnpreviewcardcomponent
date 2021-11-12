@@ -51,6 +51,15 @@ body {
 }
 
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 10px;
   height: 1270px;
   max-width: 325px;
@@ -60,21 +69,20 @@ body {
 @media (min-width: 64em) {
   .container {
     height: 500px;
-    max-width: 920px;
+    min-width: 920px;
     margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
 }
 
-nav {
-  padding-top: 5em;
-  padding-bottom: 5em;
-}
-
-@media (min-width: 64em) {
-  nav {
-    padding-top: 13em;
-    padding-bottom: 13em;
-  }
+.content {
+  border-radius: 10px;
+  height: 1230px;
+  max-width: 325px;
 }
 
 @media (min-width: 64em) {
