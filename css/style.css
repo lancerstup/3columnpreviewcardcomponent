@@ -81,8 +81,6 @@ body {
 
 .content {
   border-radius: 10px;
-  height: 1230px;
-  width: 325px;
 }
 
 @media (min-width: 64em) {
