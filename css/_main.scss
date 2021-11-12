@@ -22,7 +22,7 @@
 }
 
 .content{
-    border-radius:10px;
+
     @include breakpoint-up(large){
         height:500px;
         width:920px;

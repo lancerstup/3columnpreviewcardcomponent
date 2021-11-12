@@ -79,10 +79,6 @@ body {
   }
 }
 
-.content {
-  border-radius: 10px;
-}
-
 @media (min-width: 64em) {
   .content {
     height: 500px;
