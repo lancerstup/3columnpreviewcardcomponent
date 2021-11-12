@@ -4,13 +4,13 @@
     align-items: center;
     border-radius:10px;
     height:1270px;
-    max-width:325px;
+    width:325px;
     margin:auto;
     
 
     @include breakpoint-up(large){
         height:500px;
-        min-width:920px;
+        width:920px;
         margin:auto;
         position:absolute;
         top:50%;
@@ -24,11 +24,11 @@
 .content{
     border-radius:10px;
     height:1230px;
-    max-width:325px;
+    width:325px;
 
     @include breakpoint-up(large){
         height:500px;
-        max-width:920px;
+        width:920px;
         display:flex;
        
     }

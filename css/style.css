@@ -62,14 +62,14 @@ body {
           align-items: center;
   border-radius: 10px;
   height: 1270px;
-  max-width: 325px;
+  width: 325px;
   margin: auto;
 }
 
 @media (min-width: 64em) {
   .container {
     height: 500px;
-    min-width: 920px;
+    width: 920px;
     margin: auto;
     position: absolute;
     top: 50%;
@@ -82,13 +82,13 @@ body {
 .content {
   border-radius: 10px;
   height: 1230px;
-  max-width: 325px;
+  width: 325px;
 }
 
 @media (min-width: 64em) {
   .content {
     height: 500px;
-    max-width: 920px;
+    width: 920px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
