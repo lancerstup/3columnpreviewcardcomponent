@@ -87,6 +87,8 @@ body {
 
 @media (min-width: 64em) {
   .content {
+    height: 500px;
+    min-width: 920px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
